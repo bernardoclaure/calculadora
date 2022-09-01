@@ -4,6 +4,10 @@ Console.WriteLine("Hello, World!");
 while(true)
 {
     Console.WriteLine("Ingrese la opcion de la operacion que desea ejecutar, solo enteros!");
+    Console.WriteLine("1.Suma");
+    Console.WriteLine("2.Resta");
+    Console.WriteLine("3.Multiplicacion");
+    Console.WriteLine("4.Division");
     string n = Console.ReadLine();
     int num1;
     int num2;
