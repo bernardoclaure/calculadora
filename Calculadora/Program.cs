@@ -1,8 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
 
 while(true)
 {
+
+    Console.ReadLine();
+    Console.Clear();
     Console.WriteLine("Ingrese la opcion de la operacion que desea ejecutar, solo enteros!");
     Console.WriteLine("1.Suma");
     Console.WriteLine("2.Resta");
@@ -24,10 +26,10 @@ while(true)
             Console.WriteLine("Resta");
             break;
         case "3":
-            Console.WriteLine("Multiplicaion");
+            Console.WriteLine("Resultado: "+ multiplicacion(num1,num2));
             break;
         case "4":
-            Console.WriteLine("Division");
+            Console.WriteLine("Resultado: "+ division(num1, num2));
             break;
        
     }
